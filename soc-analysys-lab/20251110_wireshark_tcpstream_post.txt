@@ -1,0 +1,195 @@
+POST /rest/user/login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 36
+sec-ch-ua-platform: "Linux"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: application/json, text/plain, */*
+X-User-Email: admin123
+Content-Type: application/json
+sec-ch-ua: "Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,bg;q=0.8
+Cookie: cookieconsent_status=dismiss; welcomebanner_status=dismiss; language=en
+
+{"email":"admin","password":"admin"}
+HTTP/1.1 401 Unauthorized
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+Content-Type: text/html; charset=utf-8
+Content-Length: 26
+ETag: W/"1a-ARJvVK+smzAF3QQve2mDSG+3Eus"
+Vary: Accept-Encoding
+Date: Tue, 11 Nov 2025 01:31:53 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Invalid email or password.
+GET /rest/user/whoami HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua-platform: "Linux"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: application/json, text/plain, */*
+X-User-Email: admin
+sec-ch-ua: "Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,bg;q=0.8
+Cookie: cookieconsent_status=dismiss; welcomebanner_status=dismiss; language=en
+If-None-Match: W/"b-/5bSboVjVhGw3qRgvUfZjE1r1Ns"
+
+
+HTTP/1.1 304 Not Modified
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+ETag: W/"b-/5bSboVjVhGw3qRgvUfZjE1r1Ns"
+Date: Tue, 11 Nov 2025 01:31:55 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+GET /rest/user/whoami HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua-platform: "Linux"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: application/json, text/plain, */*
+X-User-Email: admin
+sec-ch-ua: "Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,bg;q=0.8
+Cookie: cookieconsent_status=dismiss; welcomebanner_status=dismiss; language=en
+If-None-Match: W/"b-/5bSboVjVhGw3qRgvUfZjE1r1Ns"
+
+
+HTTP/1.1 304 Not Modified
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+ETag: W/"b-/5bSboVjVhGw3qRgvUfZjE1r1Ns"
+Date: Tue, 11 Nov 2025 01:31:55 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+POST /rest/user/login HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+Content-Length: 39
+sec-ch-ua-platform: "Linux"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: application/json, text/plain, */*
+X-User-Email: admin1
+Content-Type: application/json
+sec-ch-ua: "Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Origin: http://localhost:3000
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,bg;q=0.8
+Cookie: cookieconsent_status=dismiss; welcomebanner_status=dismiss; language=en
+
+{"email":"admin12","password":"admin2"}
+HTTP/1.1 401 Unauthorized
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+Content-Type: text/html; charset=utf-8
+Content-Length: 26
+ETag: W/"1a-ARJvVK+smzAF3QQve2mDSG+3Eus"
+Vary: Accept-Encoding
+Date: Tue, 11 Nov 2025 01:31:58 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+Invalid email or password.
+GET /rest/user/whoami HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua-platform: "Linux"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: application/json, text/plain, */*
+X-User-Email: admin12
+sec-ch-ua: "Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,bg;q=0.8
+Cookie: cookieconsent_status=dismiss; welcomebanner_status=dismiss; language=en
+If-None-Match: W/"b-/5bSboVjVhGw3qRgvUfZjE1r1Ns"
+
+
+HTTP/1.1 304 Not Modified
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+ETag: W/"b-/5bSboVjVhGw3qRgvUfZjE1r1Ns"
+Date: Tue, 11 Nov 2025 01:32:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+
+GET /rest/user/whoami HTTP/1.1
+Host: localhost:3000
+Connection: keep-alive
+sec-ch-ua-platform: "Linux"
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36
+Accept: application/json, text/plain, */*
+X-User-Email: admin12
+sec-ch-ua: "Chromium";v="142", "Google Chrome";v="142", "Not_A Brand";v="99"
+sec-ch-ua-mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:3000/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9,bg;q=0.8
+Cookie: cookieconsent_status=dismiss; welcomebanner_status=dismiss; language=en
+If-None-Match: W/"b-/5bSboVjVhGw3qRgvUfZjE1r1Ns"
+
+
+HTTP/1.1 304 Not Modified
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+ETag: W/"b-/5bSboVjVhGw3qRgvUfZjE1r1Ns"
+Date: Tue, 11 Nov 2025 01:32:01 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+

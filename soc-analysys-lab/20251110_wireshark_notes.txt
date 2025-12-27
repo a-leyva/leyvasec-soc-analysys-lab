@@ -1,0 +1,7 @@
+tcpdump -i eth0 -w ~/20251110_wireshark_capture.pcap
+Wireshark filters used:
+http
+http.request.method == "POST"
+dns
+ip.addr == 127.0.0.1:3000 (localhost:3000)
+cp.len > 0

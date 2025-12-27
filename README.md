@@ -26,9 +26,6 @@ The purpose is to practice **network traffic investigation**, **incident detecti
 ├── Wireshark_Traffic_Investigation.md # Lab documentation / report
 └── endpoints.png # Network endpoints overview
 
-yaml
-Copy code
-
 ---
 
 ## 🧠 Skills Demonstrated
